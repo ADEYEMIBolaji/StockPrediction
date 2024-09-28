@@ -10,7 +10,7 @@ stock_data = {}
 for stock in stocks:
     print(f"Fetching data for {stock}...")
     # Download historical stock data
-    data = yf.download(stock, start='2014-01-01', end='2024-04-01')
+    data = yf.download(stock, start='2014-01-01', end='2024-09-01')
     # Save data to dictionary
     stock_data[stock] = data
 
